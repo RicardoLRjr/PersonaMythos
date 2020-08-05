@@ -1,0 +1,25 @@
+{
+  "name": "PersonaMythos",
+  "version": "1.0.0",
+  "description": "An application that is a dictionary of Personas from Persona 4/5 that will provide information on the mythical background of each of the Personas.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RicardoLRjr/PersonaMythos.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RicardoLRjr/PersonaMythos/issues"
+  },
+  "homepage": "https://github.com/RicardoLRjr/PersonaMythos#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}
