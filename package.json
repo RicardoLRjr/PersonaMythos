@@ -4,6 +4,7 @@
   "description": "An application that is a dictionary of Personas from Persona 4/5 that will provide information on the mythical background of each of the Personas.",
   "main": "server.js",
   "scripts": {
+    "dev": "concurrently \"nodemon server.js\" \"cd client && npm run start\"",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
@@ -21,5 +22,8 @@
   "dependencies": {
     "dotenv": "^8.2.0",
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0"
   }
 }
